@@ -51,7 +51,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 4. In nuxt.config.js add the following.
 
-<<<<<<< HEAD
     head: {
         link: [
           { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' },
@@ -61,7 +60,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     plugins: ['~plugins/vuetify.js'],
 
     css: ['~assets/css/app.styl'],
-=======
+
     plugins: ['~plugins/vuetify.js'],
 
     css: [
@@ -70,7 +69,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
             lang: 'styl'
         }
     ],
->>>>>>> 738a1a45a71aa7f63f76f0f4b742226c8d29a31a
 
     build: {
         vendor: ['vuetify'],
@@ -78,7 +76,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 5. In assets folder create css folder and file called app.styl add this content
 
-<<<<<<< HEAD
 	@require '~vuetify/src/stylus/settings/_colors'
     
     $theme := {
@@ -93,15 +90,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   
     // Import Vuetify styling
     @require '~vuetify/src/stylus/main'
-=======
-	$theme := {
-	  primary: #9c27b0
-	  accent: #ce93d8
-	  secondary: #424242
-	  info: #0D47A1
-	  warning: #ffb300
-	  error: #B71C1C
-	  success: #2E7D32
-	}
-	@require '~vuetify/src/stylus/main.styl'
->>>>>>> 738a1a45a71aa7f63f76f0f4b742226c8d29a31a
+

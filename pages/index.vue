@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        my-first-nuxt-app
+        Let's learn about NuxtJS, VueJS and Vuetify together
       </h1>
       <h2 class="subtitle">
         My geometric Nuxt.js project
@@ -11,8 +11,16 @@
       <div class="links">
         <a
           href="/users"
-          target="_blank"
+          target=""
           class="button--green">Users</a>
+        <a
+          href="/vuetify"
+          target=""
+          class="button--green">vuetify</a>
+        <a
+          href="/booking"
+          target=""
+          class="button--green">Booking</a>
       </div>
     </div>
   </section>
